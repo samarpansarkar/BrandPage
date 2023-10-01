@@ -1,0 +1,20 @@
+.navLink {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 24px;
+    margin:20 auto;
+    list-style: none;
+    cursor: pointer;
+}
+
+.li {
+    color: #2E2E2E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    
+}

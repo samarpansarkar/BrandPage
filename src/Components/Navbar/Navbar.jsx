@@ -1,6 +1,7 @@
 import React from "react";
 import Classes from './navbar.module.css';
-import logo from '../assets/brand_logo.png';
+import logo from '../../assets/brand_logo.png';
+import NavLinks from "./NavLinks";
 
 
 const Navbar = () => {
@@ -11,10 +12,10 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
         </div>
         <div className={Classes.navbar_options}>
-            menu
+            <NavLinks/>
         </div>
-        <div className="navbar-login">
-            <button>Login</button>
+        <div>
+            <button className={Classes.button}>Login</button>
         </div>
       </div>
     </React.Fragment>
